@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeowChess_Server", "MeowChess_Server\MeowChess_Server.csproj", "{AC996269-BC61-4A25-AAF8-C4A726555890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GKPlayground", "GKPlayground\GKPlayground.csproj", "{35C87C7F-0923-44E2-A1D9-3010FE07FD2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AC996269-BC61-4A25-AAF8-C4A726555890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC996269-BC61-4A25-AAF8-C4A726555890}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC996269-BC61-4A25-AAF8-C4A726555890}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC996269-BC61-4A25-AAF8-C4A726555890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C87C7F-0923-44E2-A1D9-3010FE07FD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C87C7F-0923-44E2-A1D9-3010FE07FD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C87C7F-0923-44E2-A1D9-3010FE07FD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C87C7F-0923-44E2-A1D9-3010FE07FD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3E37CA33-ACAB-4EA9-9387-C14DAFC243D2}
+		SolutionGuid = {6F42880E-6AFA-4BC1-8360-88777EB21751}
 	EndGlobalSection
 EndGlobal
