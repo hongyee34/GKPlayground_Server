@@ -84,8 +84,9 @@ namespace GKPlayground
                 image = commandData.image
             };
             await Server.SendMessageTcp(commandData.sender, JsonSerializer.Serialize(reply));
+            await ClientManager.Instance.SendWholeClientInfo(commandData.sender);
+
             reply.command = "Join";
-            await Task.Delay(1000);
             await Server.BroadcastMessageTcp(JsonSerializer.Serialize(reply));
         }
     }
