@@ -58,6 +58,7 @@ namespace GKPlayground
 
                 try
                 {
+                    Console.WriteLine(commandData.name + "로그인 함");
                     var reader = await command.ExecuteReaderAsync();
                     await reader.ReadAsync();
 
